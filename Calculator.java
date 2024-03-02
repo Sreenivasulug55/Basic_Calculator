@@ -10,14 +10,17 @@ class Calculator {
 		System.out.println("4.Divide");
 		System.out.println("5.Modular");
 		System.out.println("choose the operation:");
-
+		// storing the what they can perform operation
 		int option = sc.nextInt();
+		
 		// read first number and second number
 		System.out.println("enter first number:");
 		double first = sc.nextDouble();
+		// read the second number 
+		
 		System.out.println("enter second number: ");
 		double second = sc.nextDouble();
-
+		
 		double result;
 		// given an input parametares are perform some oprations which type of op can
 		// perform
