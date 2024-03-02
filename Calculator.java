@@ -53,6 +53,8 @@ class Calculator {
 			System.out.println("invalid input ");
 
 		}
+		// closing the scanner 
+		sc.close();
 
 	}
 
